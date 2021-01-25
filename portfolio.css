@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+ /* this is the real background color */
+html, body {
+     width: 100%;
+     height: 100%;
+  } 
+
+
+  body{
+    background-color: rgb(128, 170, 255);
+    padding: 20px;
+    font-family: Arial;
+}
+
+.title {
+    text-align: center;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.new{
+    background-color: blue;
+    padding: 2px;
+    text-align: center;
+}
+
+
+.headRound{
+    border-radius: 80%;
+    width: 125px;
+    height: 125px;
+    padding: 10px;
+    background-color: rgb(143, 33, 108);
+
+
+}
+
+.Vex? {
+    margin: ;
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(143, 33, 108);
+
+}
+
+
+
+}
+
+.NewPage:hover {
+  box-shadow: 0 0 200px 1px rgba(800, 100, 300, 0.5);
+}
+
+
+
+/* end of NewPage */
+
+.header{
+    text-align: center;
+    color: rgb(252, 255, 54);
+}
+
+
+.link{
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+/* start of linking/ routing */
+
+.row2 {
+    margin: 20px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row2,
+.row2 > .column2 {
+    padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content2 {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 100px) {
+    .column2 {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 100px) {
+    .column2 {
+        width: 100%;
+    }
+}
+
+
+.row2 {
+    height: 10px;
+
+
+}
+
+.top {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.captain {
+
+
+}
+
+.end {
+    
+
+}
+
+
+.sponsors {
+    background: rgb(50,227,74);
+
+}
+
+
+.sponsorsimgOG {
+    max-width: 300px;
+    float: right; 
+    
+}
+
+.mentorsimgOG {
+    max-width: 300px;
+}
+
+.teamimgOG {
+    max-width: 300px;
+
+}
+
+.MoreimgOG {
+     max-width: 300px;
+
+}
+
+.team {
+    background: rgb(157,59,255); 
+
+}
+
+
+.sponsorstext {
+    font-style: italic;
+}
+
+
+.teamtextnomber {
+    font-style: italic;
+    color: red;
+
+}
+
+.lestteammembersw {
+    font-size: 20px;
+
+}
+ .More{
+    background-color: orange;
+
+ }
+
+.Vice {
+    max-width: 150px;
+    border-radius: 80%;
+
+}
+
+
+.Captainimg1 {
+    max-width: 150px;
+    border-radius: 80%;
+}
+
+.Designimg1 {
+    max-width: 150px;
+    border-radius: 80%;
+
+}
+
+
+
+.teamimg {
+    max-width: 150px;
+    border-radius: 80%;
+
+}
+
+.moretop {
+    float: bottom;
+    font-size: 30px;
+}
+
+
+
+.moreback {
+    margin: ;
+
+}
+
+.Moreimg2 {
+    max-height: 200px;
+    max-width: 150px;
+    margin-left: 500px;
+
+
+}
+
+.teamimgtablemembers {
+    max-width: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 10px;
+    float: left;
+
+}
+
+.teamimgtablemembers1 {
+    /* this can control just the img */
+}
+
+
+.mainvid {
+    font-size: 45px;
+    color: green;
+    font-family: sans-serif ; 
+
+
+}
+
+.mainvidlink {
+    font-size: 46.32px;
+}
+
+.sponsorsMainLink {
+    /* I can overide the other class here but only internaly */
+    font-size: 20px;
+
+}
+
+.TeamTogethorHole {
+    font-size: 25px; 
+    font-family: Verdana;  
+
+
+}
+
+.TeamBack {
+    font-size: 20px;
+    padding-top: 2500px;
+}
+
+
+ 
+.aga {
+    background-color: rgb(211,46,219);
+
+
+}
+
+.NewPageBack {
+    font-size: 30px;
+    float: bottom;
+
+}
+
+.mainexlplanationtextsad {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+
+}
+
+
+
+
+.NewPagePublinkVexLinks {
+    font-size: 20px;
+    padding: 20px
+
+}
+
+.NewPageBottomImg{
+    max-width: 350px;
+    float: right;
+
+}
+
+.codemain {
+    float: right;
+
+    
+
+}
+
+.HomeIndexTop {
+    float: left;
+
+}
+
+.CodeText {
+
+    
+}
