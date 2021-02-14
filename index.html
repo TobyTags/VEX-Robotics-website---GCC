@@ -2,80 +2,337 @@
   <head>
     <title> Team 79598 </title>
 
-    <div class="row2">
-      
-      <div class="column2">
-        <div class="content2">
-         <a class="sponsorsMainLink" href="sponsors.html"> Sponsors</a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- start of scripts for main hub buttens -->
+
+      <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+        function myFunction1() {
+          document.getElementById("myDropdown1").classList.toggle("show1");
+        }
+
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn1')) {
+          var dropdowns = document.getElementsByClassName("dropdown1-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show1')) {
+          openDropdown.classList.remove('show1');
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+
+
+
+
+      <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+        function myFunction2() {
+          document.getElementById("myDropdown2").classList.toggle("show2");
+        }
+
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn2')) {
+          var dropdowns = document.getElementsByClassName("dropdown2-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show2')) {
+          openDropdown.classList.remove('show2');
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+
+
+      <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+        function myFunction3() {
+          document.getElementById("myDropdown3").classList.toggle("show3");
+        }
+
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn3')) {
+          var dropdowns = document.getElementsByClassName("dropdown3-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show3')) {
+          openDropdown.classList.remove('show3');
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+
+
+
+
+      <script>
+          /* When the user clicks on the button, 
+          toggle between hiding and showing the dropdown content */
+        function myFunction4() {
+          document.getElementById("myDropdown4").classList.toggle("show4");
+        }
+
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn4')) {
+          var dropdowns = document.getElementsByClassName("dropdown4-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show4')) {
+          openDropdown.classList.remove('show4');
+              }
+            }
+          }
+        }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- end of scripts for main hub buttens -->
+
+
+      <!-- start of slide show -->
+
+      <div class="slideshowcontainer">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img id="img1" src="images/14.jpg" style="width:100%">
+          <div class="text"></div>
         </div>
-      </div>
-      
-      
-      
-       <div class="column2">
-        <div class="content2">
-         <a class="sponsorsMainLink" href="the team.html"> The Team</a>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img id="img2" src="images/12.jpg" style="width:100%">
+          <div class="text"></div>
         </div>
-      </div>
-      
-      
-      
-       <div class="column2">
-        <div class="content2">
-         <a class="sponsorsMainLink" href="mentors.html"> Mentors </a>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img id="img3" src="images/18.jpg" style="width:100%">
+          <div class="text"></div>
         </div>
-      </div>
-      
-      
-      
-      
-      
-       <div class="column2">
-        <div class="content2">
-         <a class="sponsorsMainLink" href="More.html"> More</a>
 
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img id="img4" src="images/39.jpg" style="width:100%">
+          <div class="text"></div>
         </div>
+
+
       </div>
 
 
+      <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span>
+          <span class="dot"></span>  
+        </div>
+      </br>
+
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");}
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }  
+        </script>
+
+        <!-- end of slideshow -->
+      <div>
+        <div class="nav">
+
+            <ul>
+              <li>Sponsors <div class="dropdown1"><button onclick="myFunction1()" class="dropbtn1"></button><div id="myDropdown1" class="dropdown1-content">
+                <a href="sponsors.html">details</a>
+                <a href="GlanmireCreditUnion.html">Glanmire Credit Union</a>
+                <a href="JOSCarpentry&ConstuctionLtd.html">JOS Carpentry & Construction Ltd</a>
+                <a href="Johnson&Perrott.html">Johnson & Perrott</a>
+                <a href="WantToSponsorUs.html">Want to sponsor us?</a>
+              </div></div></a>
+                  
+                  
+
+                <ul class="dropdown">
+
+                  <li><a href="sponsors.html">details</a></li>
+
+
+                  <li><a href="GlanmireCreditUnion.html">Glanmire Credit Union</a></li>
+
+
+                  <li><a href="JOSCarpentry&ConstuctionLtd.html">JOS Carpentry & Construction Ltd</a></li>
+
+
+                  <li><a href="Johnson&Perrott.html">Johnson & Perrott</a></li>
+
+
+                  <li><a href="WantToSponsorUs.html">Want to sponsor us?</a></li>
+
+                </ul>
+              </li>
+
+
+
+
+              <li>The Team <div class="dropdown2"><button onclick="myFunction2()" class="dropbtn2"></button><div id="myDropdown2" class="dropdown2-content">
+                <a href="the team.html">Stats</a>
+                <a href="current members.html">Current members</a>
+                <a href="WantToJoin.html">Want to join?</a>
+              </div></div></a>
+                <ul class="dropdown">
+                  <li> <a href="the team.html">Stats</a></li>
+                  <li> <a href="current members.html">Current members</a></li>
+                  <li> <a href="WantToJoin.html">Want to join?</a></li>
+                </ul>
+              </li>
+
+
+
+
+              <li>Mentors <div class="dropdown3"><button onclick="myFunction3()" class="dropbtn3"></button><div id="myDropdown3" class="dropdown3-content">
+                <a href="mentors.html">Mentors</a>
+              </div></div></a>
+                <ul class="dropdown">
+                  <li><a href="mentors.html"> Mentors </a></li>
+                </ul>
+              </li>
+
+
+
+
+              <li>More <div class="dropdown4"><button onclick="myFunction4()" class="dropbtn4"></button><div id="myDropdown4" class="dropdown4-content">
+                <a href="More.html">More</a>
+                <a href="Contact us.html">Contact us</a>
+              </div></div></a>
+                <ul class="dropdown">
+                  <li><a href="More.html">More</a></li>
+                  <li><a href="Contact us.html">Contact us</a></li>
+
+                </ul>
+              </li>
+
+
+            </ul> 
+          </div>
+        </div>
 
 
 
 
 
-
+       
 
 
 
 
     <H1 class="header"> Glanmire Community College Vex Team</H1>
     <meta charset="utf-8">
-    <meta name="author" content="Toby">
-    <meta name="description" content="MPT Web Design Portfolio Website">
+    <meta name="Toby Tangney" content="Toby">
+    <meta name="description" content="Glanmire Community College VEX Robotics Team 79598A + 79598B ">
 
-    <!-- Link CSS here -->
+    <!-- Linked CSS here -->
     <link rel="stylesheet" type="text/css" href="portfolio.css">
-
+    <!-- Linked javaScript here -->
+    <script type="text/javascript" src="myscripts.js"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="images/9.png"/>
+   
     
   </head>
 
-  <body>
+  <body class="index" >
 
     <!-- MAIN (Center website) -->
     <div class="main">
 
       <header class="title">
         <img class="headRound" src="images/9.png"	>
+
+        <h1> The Cork Screws </h1>
+
         <h2 class="mainvid">How our team has changed for the better</h2>
 
         <a class="mainvidlink" href="https://youtu.be/xNUnMUijhqw"> Unite video </a>
 
-        <h1> The Cork Screws </h1>
+        
         <h1 class="teamtextnomber"> Team 79598 </h1>
         <h2> Glanmire Community College VRC Robotics Team </h2>
-        <h3> ( Vex Captain Toby, handcoded this website using just HTML and CSS )</h3>
 
           <div>
             <h3> a link to our school website </h3>
@@ -96,26 +353,33 @@
 		
 
           <div> 
-    	     <p> click to see a video explaining all about robotics</p>
+    	     <p> click  <a href="https://youtu.be/Bs6T4YcHxJQ"> here</a> to see a video explaining all about robotics</p>
     	     <a href="https://youtu.be/Bs6T4YcHxJQ"> What is vex?</a>
 	        </div>
 
+          <div>
+            <img class="MainTeamFromMidEndOf2endYearIndex" src="images/18.jpg">
+            <img class="MainTeamFromMidEndOf2endYearIndex" src="images/27.jpg">
+          </div>
+          </div> 
+
 
           <div class="link">
-            <p> What is Robotics? </p>
-            <a href=".New page.html">find out more</a>	
+            <H1> What is Robotics? </H1> <img class="VexImgIndexVex" src="images/38.png">
+            <a class="FindOutMoreLink" href=".New page.html">find out more</a>	
           </div>
 	
 	        <div>
 
-	         <p class="lestteammembersw"> List of current team members and roles</p>
 
 	     </div>
 	   </header>
 
 
+
   
       <hr>
+        <p class="lestteammembersw"> List of teams and roles</p>
 
       <!-- Portfolio Gallery Grid -->
         <div class="row">
@@ -139,6 +403,7 @@
          <p></p>
         </div>
       </div>
+      
       
       
       
@@ -200,53 +465,325 @@
 
 	       </picture>
         </div>
+
+
+
+            <!--  Start of block breaks -->
+
+            <!--
+        <div class="header3">
+           <h1>Chania</h1>
+        </div>
+
+        <div class="row3">
+          <div class="col-3 menu">
+            <ul>
+            <li>The Flight</li>
+            <li>The City</li>
+            <li>The Island</li>
+            <li>The Food</li>
+            </ul>
+          </div>
+
+          <div class="col-6">
+            <h1>The City</h1>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+          </div>
+
+          <div class="col-3 right">
+            <div class="aside">
+              <h2>What?</h2>
+              <p>Chania is a city on the island of Crete.</p>
+              <h2>Where?</h2>
+              <p>Crete is a Greek island in the Mediterranean Sea.</p>
+              <h2>How?</h2>
+              <p>You can reach Chania airport from all over Europe.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <p>Resize the browser window to see how the content respond to the resizing.</p>
+        </div>
+      </div>
+
+
+        End of block breaks -->
+
+
+
+
+
 	    <div class="top">
 
         <div>
-          <p class="codemain">This website was handcoded by team captain Toby using only HTML and CSS</p>
+          <p class="CodeText">Handcoded by team captain Toby using only HTML and CSS</p>
         </div>
 
         <div>
-          <p> You can view the code by pressing control U or right click – ‘view page source’ while you are on this page, that will bring you to the HTML index which has links in it to all the other code </p>
-        </div>
-
-        <div>
-          <p>Or click on the links </p>
+          <p class="CodeText"> You can all the code on github</p>
         </div>
 
           <div>
-            <a class="CodeText" href="http://www.gccvex.ie/page-source:index.html"> Home</a>
+            <a class="CodeText" href="https://github.com/TobyTags/GCCwebsite"> github</a>
           </div>  
 
-          <div>
-            <a class="CodeText" href="http://www.gccvex.ie/portfolio.css"> Home</a>
-          </div>
+
+               <img class="codeimgleft" src="images/21.png">
+
+        <div>
+          <p class="CodeText"> you can see the CSS code here</p>
+        </div>
+
+          
 
           <div>
-            <a class="CodeText" href="index.html"> Home</a>
+            <a class="CodeText" href="http://www.gccvex.ie/portfolio.css"> CSS code</a>
           </div>
 
-          <div>
-            <a class="CodeText" href="index.html"> Home</a>
-          </div>
+         
 
-          <div>
-            <a class="CodeText" href="index.html"> Home</a>
-          </div>
+        <a class="HomeIndexTop" href="index.html"> Home</a>
+        </div>
 
-          <div>
-            <a class="CodeText" href="index.html"> Home</a>
-          </div>
 
-          <div>
-            <a class="CodeText" href="index.html"> Home</a>
-          </div>
 
-        <a class="HomeIndexTop" href="index.html"> Home</a>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- w3schools 1st try
+
+
+
+
+
+        <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row9">
+    
+    <div class="column9">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+ end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- start of youtube try full -->
+
+
+
+<div class="contact-form">
+
+  <form id="contact-form" method="post" action="contact-form-handler.php">
+  <input type="text" name="name" class="form-control" placeholder="Your name" required>
+  <br>
+  <input type="email" name="email" class="form-control" placeholder="Your email" required><br>
+
+  <select id="year" name="year" class="messageSelectYear">
+          <option value="1st year">1st year</option>
+          <option value="2nd year">2nd year</option>
+          <option value="3rd year">3rd year</option>
+          <option value="4th year">4th year</option>
+  </select><br>
+
+    <textarea name="message" class="form-control" placeholder="Message" row="5" required></textarea><br>
+
+    <input type="submit" class="form-control submit" value="SEND MESSAGE" >
+    
+  </form>
+  
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	  </div>
     <!-- END MAIN DO NOT REMOVE-->
     </div>
+
+
 
   </body>
 </html>
