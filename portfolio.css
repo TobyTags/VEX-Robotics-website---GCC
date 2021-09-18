@@ -265,11 +265,11 @@ h1 {
 @keyframes backgroundimgagesponsores {
 
     0% {
-        background-image: url(images/22.jfif);
+        background-image: url(images/24.jfif);
     }
 
     10% {
-        background-image: url(images/23.png);
+        background-image: url(images/24.jfif);
     }
 
     20% {
@@ -277,11 +277,11 @@ h1 {
     }
 
     30% {
-        background-image: url(images/23.png);
+        background-image: url(images/24.jfif);
     }
 
     40% {
-        background-image: url(images/22.jfif);
+        background-image: url(images/24.jfif);
     }
 
     50% {
@@ -289,11 +289,11 @@ h1 {
     }
 
     60% {
-        background-image: url(images/22.jfif);
+        background-image: url(images/24.jfif);
     }
 
     70% {
-        background-image: url(images/23.png);
+        background-image: url(images/24.jfif);
     }
 
     80% {
@@ -301,11 +301,11 @@ h1 {
     }
 
     90% {
-        background-image: url(images/22.jfif);
+        background-image: url(images/24.jfif);
     }
 
     100% {
-        background-image: url(images/23.png);
+        background-image: url(images/24.jfif);
     }
 
  }
@@ -362,6 +362,7 @@ h1 {
 
 .Vice {
     max-width: 150px;
+    max-height: 105px;
     border-radius: 80%;
 
 }
@@ -506,7 +507,7 @@ h1 {
 }
 
 .CodeText {
-
+    text-align: center;
     padding-left: 400px;
     float: unset;
 }
@@ -764,7 +765,7 @@ All about the # my g
 
 .WantToJoin {
       animation-name: backgroundcolorpaletteWantToJoin;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-iteration-count: infinite; 
     animation-direction: alternate;
     animation-fill-mode: backwards;
@@ -773,27 +774,27 @@ All about the # my g
 @keyframes backgroundcolorpaletteWantToJoin {
 
     0% {
-        background-color: background-color: rgb(171, 55, 138);
+        background-color: rgb(143, 235, 52);
     }
 
     20% {
-        background-color: rgb(107, 45, 89);
+        background-color: rgb(122, 235, 52);
     }
 
     40% {
-        background-color: rgb(75, 54, 153);
+        background-color: rgb(79, 235, 52);
     }
 
     60% {
-        background-color: rgb(103, 66, 237);
+        background-color: rgb(52, 235, 79);
     }
 
     80% {
-        background-color: rgb(231, 91, 252);
+        background-color: rgb(52, 235, 134);
     }
 
     100% {
-        background-color: rgb(219, 245, 73);
+        background-color: rgb(52, 235, 174);
     }
  }
 
@@ -804,6 +805,7 @@ All about the # my g
 /* does nothing */
 #jjjjjjjjjjj {
     padding-top: 5000px;
+    font-size: 40px;
 }
 
 .ContactUs {
@@ -967,6 +969,38 @@ img {vertical-align: middle;}
   position: absolute;
   top: 0;
   padding-top: 132.4px;
+}
+
+#img1 {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+
+#img2 {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+
+#img3 {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 60px;
+}
+
+#img4 {
+    float: left;
+    width:  200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 60px;
 }
 
 /* The dots/bullets/indicators */
@@ -1300,10 +1334,13 @@ img {vertical-align: middle;}
 }
 
 .FindOutMoreLink:hover, active {
-    background-color: red;
+    background: red;
 }
 
-
+.LeBron {
+    max-width: 300px;
+    float: right;
+}
 
 
 
@@ -1432,7 +1469,7 @@ form {
 }
 
 .form-control {
-    width: 600px;
+    width: 1200px;
     background: transparent;
     border: none;
     outline: none;
@@ -1471,6 +1508,57 @@ form .submit:hover {
 
 .messageSelectYear {
     font-size: 25px;
-    padding-right: 500px;
     margin-bottom: 30px;
+    float: left;
+}
+
+.contactformmessagebla {
+    padding-top: 40px;
+    padding-right: 100px;
+    font-size: 40px;
+    color: green;
+}
+
+.sucsesfully {
+     background-color: orange; 
+}
+
+.WantToJoinDiscord {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+#AdamTheCode {
+    border-radius: 80%
+    max-width: 150px;
+    max-height: 105px;
+}
+
+.robot {
+    background-color: red;
+}
+
+.MainAplicationButton {
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+    border: 8px ridge blue;  
+    padding: 5px;
+    font-size: 100px; 
+
+}
+
+#hflhglaghald {
+    font-size: 11px;
+
+
+}
+
+#hflhglaghalde {
+    font-size: 8px;
+    padding-right: 100px;
 }
